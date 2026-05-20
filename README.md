@@ -9,8 +9,9 @@ To write a python program to perform stop and wait protocol
 5. If your frames reach the server it will send ACK signal to client
 6. Stop the Program
 ## PROGRAM
-#Client:
-```
+
+### Client
+```python
 import socket
 s=socket.socket()
 s.bind(('localhost',8000))
@@ -27,8 +28,8 @@ while True:
         c.close()
         break
 ```
-#Sever
-```
+### Sever
+```python
 import socket
 s=socket.socket()
 s.connect(('localhost',8000))
@@ -37,11 +38,12 @@ while True:
     s.send("Acknowledgement Recived".encode())
 ```
 ## OUTPUT
-Client
+
+### Client
 
 <img width="940" height="357" alt="image" src="https://github.com/user-attachments/assets/bc6809bb-6675-4b10-8ad4-b3cb88b8f1fc" />
 
-Server
+#### Server
 
 <img width="857" height="308" alt="image" src="https://github.com/user-attachments/assets/bdedc6e0-4f28-4d17-afa9-5ebef3d6cd21" />
 

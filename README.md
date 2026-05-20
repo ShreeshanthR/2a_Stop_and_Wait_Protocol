@@ -43,7 +43,7 @@ while True:
 
 <img width="940" height="357" alt="image" src="https://github.com/user-attachments/assets/bc6809bb-6675-4b10-8ad4-b3cb88b8f1fc" />
 
-#### Server
+### Server
 
 <img width="857" height="308" alt="image" src="https://github.com/user-attachments/assets/bdedc6e0-4f28-4d17-afa9-5ebef3d6cd21" />
 
